@@ -1,0 +1,210 @@
+* {
+    margin: 0x;
+    padding: 0px;
+}
+
+
+#logo {
+    width: 150px;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    /* view port height, 1 vh = 1% of the height
+    vh refers to the the visible portion of the browser window */
+    /* height:100% mean: 100 percentage of the conatining element */
+    position: relative;
+}
+
+.navbar {
+    display: flex;
+    width: 85%;
+    justify-content: space-between;
+    margin-left: 125px;
+    align-items: center;
+    /* to vertically align items center */
+
+}
+
+ul li {
+    list-style: none;
+    display: inline;
+    /* to place li elements in same line */
+    margin: 10px 26px;
+}
+
+.link {
+    text-decoration: none;
+    font-size: 21px;
+    font-weight: 800;
+    color: black;
+}
+
+.link:hover {
+    color:#68b42d ;
+}
+#lastname
+{
+font-size: larger;
+font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+#ente
+{
+font-size: larger;
+text-align: center;
+font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.title {
+    margin-left: 8%;
+    margin-top: 13%;
+}
+
+.title h1 {
+    font-size: 62px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.title p {
+    font-size: 19px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+.explr{
+    text-decoration: none;
+    background-color:#68b42d ;
+    padding: 10px 30px;
+    color:black;
+    border-radius: 7px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 450px;
+    
+}
+.pta
+{
+
+    margin-left: 400px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#welcome
+{
+    text-align: center;
+    color: #68b42d ; 
+    align-items: center;
+}
+.gavi
+{
+    margin-top: 30PX;
+    height: 400PX;
+    width: 400px;
+    background-color: #83b35e;
+    padding: 10px;
+    margin-left: 150px;
+    border-radius: 10px;
+    
+}
+#gavi1
+{
+    color: rgb(7, 10, 10);
+    text-align: center;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+#gavi2
+{
+    color: beige;
+}
+.adavi
+{
+
+    margin-top: 30PX;
+    height: 400PX;
+    width: 400px;
+    background-color: #83b35e;
+    padding: 10px;
+    margin-left: 550px;
+    border-radius: 10px;
+    
+}
+
+.perum
+{
+    margin-top: 30PX;
+    height: 400PX;
+    width: 400px;
+    background-color: #83b35e;
+    padding: 10px;
+    margin-left: 150px; 
+    border-radius: 10px;
+}
+
+#contact {
+    margin: 8% 8% 0px 8%;
+}
+
+.icon-set {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+.icon,.up_arrow
+ {
+    height: 50px;
+    width: 50px;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 20px;
+    display: flex;
+    border-radius: 50%;
+}
+
+.icon i {
+    font-size: 35px;
+    color: black;
+}
+
+.icon:hover {
+    background-color: #68b42d;
+}
+
+
+footer {
+    margin: 3rem 0px opx;
+
+
+}
+
+footer p {
+    text-align: center;
+    font-weight: 600;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+#con
+{
+    text-align: center;
+
+}
+#my
+{
+    text-align: center;
+    color:  #68b42d;
+}
+.up_arrow {
+    float: right;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    background-color: #68b42d;
+
+}
+
+
